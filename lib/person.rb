@@ -17,4 +17,12 @@ class Person
   def job=(job)
     @job = job
   end
+
+  def friend
+    @friend
+  end
+
+  def friend=(name)
+    @friend = name
+  end
 end
